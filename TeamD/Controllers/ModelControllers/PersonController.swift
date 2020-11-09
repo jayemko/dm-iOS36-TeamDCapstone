@@ -7,6 +7,8 @@
 
 import Foundation
 
+var people: [Person] = []
+
 func createFileForPersistence() -> URL {
     let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
     let fileUrl = urls[0].appendingPathComponent("TeamD.json")
@@ -16,8 +18,8 @@ func createFileForPersistence() -> URL {
 func save() {
     let jsonEncoder = JSONEncoder()
     do {
-        let jsond<#Quotes#> = try jsonEncoder.encode(<#quotes#>)
-        try jsond<#Quotes#>.write(to: createFileForPersistence())
+        let jsondPeople = try jsonEncoder.encode(people)
+        try jsondPeople.write(to: createFileForPersistence())
     } catch {
         print(error)
         print(error.localizedDescription)
@@ -29,8 +31,8 @@ func load() {
     
     do {
         let jsonData = try Data(contentsOf: createFileForPersistence())
-        let decoded<#Quotes#> = try jsonDecoder.decode([<#Quote#>].self, from: jsonData)
-        <#quotes#> = decoded<#Quotes#>
+        let decodedPeople = try jsonDecoder.decode([Person].self, from: jsonData)
+        people = decodedPeople
     }catch {
         print(error)
         print(error.localizedDescription)
