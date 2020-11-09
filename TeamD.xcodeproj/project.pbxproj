@@ -9,21 +9,26 @@
 /* Begin PBXBuildFile section */
 		3CCA71C62559B2B1004ACF82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA71C52559B2B1004ACF82 /* AppDelegate.swift */; };
 		3CCA71C82559B2B1004ACF82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA71C72559B2B1004ACF82 /* SceneDelegate.swift */; };
-		3CCA71CA2559B2B1004ACF82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA71C92559B2B1004ACF82 /* ViewController.swift */; };
 		3CCA71CD2559B2B1004ACF82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCA71CB2559B2B1004ACF82 /* Main.storyboard */; };
 		3CCA71CF2559B2B2004ACF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CCA71CE2559B2B2004ACF82 /* Assets.xcassets */; };
 		3CCA71D22559B2B2004ACF82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCA71D02559B2B2004ACF82 /* LaunchScreen.storyboard */; };
+		3CCA71E62559BC88004ACF82 /* TeamDTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA71E52559BC88004ACF82 /* TeamDTabBarViewController.swift */; };
+		3CCA71E92559BDB6004ACF82 /* TeamDMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA71E82559BDB6004ACF82 /* TeamDMemberViewController.swift */; };
+		3CCA71F12559BF25004ACF82 /* TeamDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA71F02559BF25004ACF82 /* TeamDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3CCA71C22559B2B1004ACF82 /* TeamD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCA71C52559B2B1004ACF82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CCA71C72559B2B1004ACF82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3CCA71C92559B2B1004ACF82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CCA71CC2559B2B1004ACF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CCA71CE2559B2B2004ACF82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CCA71D12559B2B2004ACF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CCA71D32559B2B2004ACF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CCA71E22559B49C004ACF82 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3CCA71E52559BC88004ACF82 /* TeamDTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDTabBarViewController.swift; sourceTree = "<group>"; };
+		3CCA71E82559BDB6004ACF82 /* TeamDMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDMemberViewController.swift; sourceTree = "<group>"; };
+		3CCA71F02559BF25004ACF82 /* TeamDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,7 @@
 		3CCA71B92559B2B1004ACF82 = {
 			isa = PBXGroup;
 			children = (
+				3CCA71E22559B49C004ACF82 /* README.md */,
 				3CCA71C42559B2B1004ACF82 /* TeamD */,
 				3CCA71C32559B2B1004ACF82 /* Products */,
 			);
@@ -60,7 +66,6 @@
 				3CCA71DF2559B330004ACF82 /* Views */,
 				3CCA71DC2559B31E004ACF82 /* Controllers */,
 				3CCA71DB2559B317004ACF82 /* Resources */,
-				3CCA71C92559B2B1004ACF82 /* ViewController.swift */,
 				3CCA71CB2559B2B1004ACF82 /* Main.storyboard */,
 			);
 			path = TeamD;
@@ -90,6 +95,9 @@
 		3CCA71DD2559B322004ACF82 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				3CCA71E52559BC88004ACF82 /* TeamDTabBarViewController.swift */,
+				3CCA71E82559BDB6004ACF82 /* TeamDMemberViewController.swift */,
+				3CCA71F02559BF25004ACF82 /* TeamDViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -185,9 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CCA71CA2559B2B1004ACF82 /* ViewController.swift in Sources */,
+				3CCA71E92559BDB6004ACF82 /* TeamDMemberViewController.swift in Sources */,
 				3CCA71C62559B2B1004ACF82 /* AppDelegate.swift in Sources */,
 				3CCA71C82559B2B1004ACF82 /* SceneDelegate.swift in Sources */,
+				3CCA71E62559BC88004ACF82 /* TeamDTabBarViewController.swift in Sources */,
+				3CCA71F12559BF25004ACF82 /* TeamDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
