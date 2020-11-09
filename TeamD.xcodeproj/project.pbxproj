@@ -1,4 +1,4 @@
-// !$*UTF8*$!
+'// !$*UTF8*$!
 {
 	archiveVersion = 1;
 	classes = {
@@ -16,6 +16,7 @@
 		3CCA71E92559BDB6004ACF82 /* TeamDMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA71E82559BDB6004ACF82 /* TeamDMemberViewController.swift */; };
 		3CCA71F12559BF25004ACF82 /* TeamDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA71F02559BF25004ACF82 /* TeamDViewController.swift */; };
 		CE7648932559BE3700C6B14A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7648922559BE3700C6B14A /* Person.swift */; };
+		AB68F41D2559BEFD00D1A69A /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68F41C2559BEFD00D1A69A /* PersonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3CCA71E82559BDB6004ACF82 /* TeamDMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDMemberViewController.swift; sourceTree = "<group>"; };
 		3CCA71F02559BF25004ACF82 /* TeamDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDViewController.swift; sourceTree = "<group>"; };
 		CE7648922559BE3700C6B14A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AB68F41C2559BEFD00D1A69A /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		3CCA71DE2559B329004ACF82 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				AB68F41C2559BEFD00D1A69A /* PersonController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CCA71E92559BDB6004ACF82 /* TeamDMemberViewController.swift in Sources */,
+				AB68F41D2559BEFD00D1A69A /* PersonController.swift in Sources */,
 				3CCA71C62559B2B1004ACF82 /* AppDelegate.swift in Sources */,
 				CE7648932559BE3700C6B14A /* Person.swift in Sources */,
 				3CCA71C82559B2B1004ACF82 /* SceneDelegate.swift in Sources */,
@@ -278,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -333,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
