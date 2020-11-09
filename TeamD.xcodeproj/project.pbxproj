@@ -15,8 +15,8 @@
 		3CCA71E62559BC88004ACF82 /* TeamDTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA71E52559BC88004ACF82 /* TeamDTabBarViewController.swift */; };
 		3CCA71E92559BDB6004ACF82 /* TeamDMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA71E82559BDB6004ACF82 /* TeamDMemberViewController.swift */; };
 		3CCA71F12559BF25004ACF82 /* TeamDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA71F02559BF25004ACF82 /* TeamDViewController.swift */; };
-		CE7648932559BE3700C6B14A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7648922559BE3700C6B14A /* Person.swift */; };
 		AB68F41D2559BEFD00D1A69A /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68F41C2559BEFD00D1A69A /* PersonController.swift */; };
+		CE7648932559BE3700C6B14A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7648922559BE3700C6B14A /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		3CCA71E52559BC88004ACF82 /* TeamDTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDTabBarViewController.swift; sourceTree = "<group>"; };
 		3CCA71E82559BDB6004ACF82 /* TeamDMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDMemberViewController.swift; sourceTree = "<group>"; };
 		3CCA71F02559BF25004ACF82 /* TeamDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDViewController.swift; sourceTree = "<group>"; };
-		CE7648922559BE3700C6B14A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		AB68F41C2559BEFD00D1A69A /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		CE7648922559BE3700C6B14A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,7 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VDP22MBLFM;
+				DEVELOPMENT_TEAM = 268JS24689;
 				INFOPLIST_FILE = TeamD/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -372,7 +372,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VDP22MBLFM;
+				DEVELOPMENT_TEAM = 268JS24689;
 				INFOPLIST_FILE = TeamD/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
